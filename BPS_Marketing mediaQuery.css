@@ -1,0 +1,55 @@
+.MenuWrap {
+    background-color: cornflowerblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    min-height: 2.75rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}   
+
+.ListItem, .LastItem {
+    color: #ebebeb;
+    text-decoration: none;
+}
+.ListItem {
+    margin-right: 1rem;
+}
+.LastItem {
+    margin-left: auto;
+}
+
+
+
+@media screen and (min-width: 320px) {
+    body {
+    background-color: green;
+    }
+    .MenuWrap {
+        background-color: cornflowerblue;
+        font-family: 'Oswald', sans-serif;
+        font-size: 12px;
+        min-height: 2.75rem;
+        display: flex;
+        align-items: center;
+        padding: 0 1rem;
+    }  
+    }
+    @media screen and (min-width: 550px) {
+   Chapter 3
+   [ 61 ]
+    body {
+    background-color: yellow;
+    }
+    }
+    @media screen and (min-width: 768px) {
+    body {
+    background-color: orange;
+    }
+    }
+    @media screen and (min-width: 960px) {
+    body {
+    background-color: red;
+    }
+    }
+
